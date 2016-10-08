@@ -1,0 +1,21 @@
+package com.gaurav.calendar;
+
+import java.sql.Date;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+public class Calendar {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+	}
+	public static void dateToString(){
+	SimpleDateFormat sdf = new SimpleDateFormat("dd/M/yyyy");
+	String date = sdf.format(new Date());
+	System.out.println(date);
+	}
+}
