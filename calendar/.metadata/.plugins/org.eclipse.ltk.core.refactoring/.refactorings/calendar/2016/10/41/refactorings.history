@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;sdf&apos; in &apos;com.gaurav.calendar.Calendar.stringToDate()&apos; to &apos;objectDate&apos;&#x0A;- Original project: &apos;calendar&apos;&#x0A;- Original element: &apos;com.gaurav.calendar.Calendar.stringToDate().sdf&apos;&#x0A;- Renamed element: &apos;sdf&apos;&#x0A;- Update references to refactored element" description="Rename local variable &apos;sdf&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;com.gaurav.calendar{Calendar.java[Calendar~stringToDate@sdf!420!485!437!439!QSimpleDateFormat;!0!false" name="objectDate" references="true" stamp="1475941304618" version="1.0"/>
+</session>

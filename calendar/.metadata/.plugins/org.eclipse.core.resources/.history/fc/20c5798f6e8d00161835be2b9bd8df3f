@@ -13,7 +13,7 @@ public class Calendar {
 	 */
 	public static void main(String[] args) throws ParseException {
 		dateToString();
-		String strDate = "31-08-2009 10:20:56";
+		String strDate = "31-08-1982 10:20:56";
 		stringToDate(strDate);
 	}
 	public static void dateToString(){

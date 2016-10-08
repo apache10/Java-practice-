@@ -9,21 +9,18 @@ public class Calendar {
 
 	/**
 	 * @param args
-	 * @throws ParseException s
 	 */
-	public static void main(String[] args) throws ParseException {
+	public static void main(String[] args) {
 		dateToString();
-		String strDate = "31-08-2009 10:20:56";
-		stringToDate(strDate);
 	}
 	public static void dateToString(){
 	SimpleDateFormat objectDate = new SimpleDateFormat("dd/M/yyyy");
 	String date = objectDate.format(new Date());
 	System.out.println(date);
 	}
-	public static void stringToDate(String str) throws ParseException{
+	public static void stringToDate() throws ParseException{
 		SimpleDateFormat objectDate = new SimpleDateFormat("dd-M-yyyy hh:mm:ss");
-		String dateInString = str;
+		String dateInString = "31-08-1982 10:20:56";
 		Date date = objectDate.parse(dateInString);
 		System.out.println(date);
 	}
