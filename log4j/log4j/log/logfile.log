@@ -1,0 +1,5 @@
+2016-10-09 14:25:02,928 DEBUG [main] - com.gaurav.log.Log4jClass.main 10 - Hello this is a debug message
+2016-10-09 14:25:02,942  INFO [main] - com.gaurav.log.Log4jClass.main 11 - Hello this is an info message
+2016-10-09 14:31:52,125 ERROR [main] - com.gaurav.log.TestLog4j.main 13 - java.lang.Exception: New Exception
+java.lang.Exception: New Exception
+	at com.gaurav.log.TestLog4j.main(TestLog4j.java:11)

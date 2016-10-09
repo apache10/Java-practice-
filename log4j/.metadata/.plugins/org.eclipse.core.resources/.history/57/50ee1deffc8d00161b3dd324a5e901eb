@@ -1,0 +1,16 @@
+package com.gaurav.log;
+
+import org.apache.log4j.Logger;
+
+public class Log4jClass {
+	private static final Logger log = Logger.getLogger(Log4jClass.class);
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		log.debug("Hello this is a debug message");
+	    log.info("Hello this is an info message");
+
+	}
+
+}
+	
