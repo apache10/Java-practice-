@@ -202,3 +202,8 @@ java.lang.IllegalArgumentException: Illegal value: -1
 	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
 	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:87)
 	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+
+!ENTRY org.eclipse.core.resources 2 2 2016-10-09 14:35:35.939
+!MESSAGE Save operation warnings.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2016-10-09 14:35:35.940
+!MESSAGE The project description file (.project) for 'TextToSpeech' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
