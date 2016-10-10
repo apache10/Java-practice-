@@ -4,7 +4,6 @@ package com.gaurav.calendar;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
-import com.gaurav.calendar.MyCalendar;
 import java.util.GregorianCalendar;
 
 public class Calendar {
@@ -32,8 +31,8 @@ public class Calendar {
 
 	public static void printDate(){
 		SimpleDateFormat sdf = new SimpleDateFormat("yyyy MMM dd HH:mm:ss");
-		MyCalendar calendar = new GregorianCalendar(2013,1,28,13,24,56);
-		
+		Calendar calendar = new GregorianCalendar(2013,1,28,13,24,56);
+
 		int year       = calendar.get(Calendar.YEAR);
 		int month      = calendar.get(Calendar.MONTH); 
 		int dayOfMonth = calendar.get(Calendar.DAY_OF_MONTH);
@@ -60,6 +59,6 @@ public class Calendar {
 		System.out.println("hourOfDay \t: " + hourOfDay);
 		System.out.println("minute \t\t: " + minute);
 		System.out.println("second \t\t: " + second);
-		System.out.println("millisecond \t: " + millisecond);
+		System.out.println("millisecond \t: " + millisecond)
 	}
 }

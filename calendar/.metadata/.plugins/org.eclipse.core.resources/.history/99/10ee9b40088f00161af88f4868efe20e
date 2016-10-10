@@ -4,7 +4,7 @@ package com.gaurav.calendar;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
-import com.gaurav.calendar.MyCalendar;
+import java.util.*;
 import java.util.GregorianCalendar;
 
 public class Calendar {
@@ -32,7 +32,7 @@ public class Calendar {
 
 	public static void printDate(){
 		SimpleDateFormat sdf = new SimpleDateFormat("yyyy MMM dd HH:mm:ss");
-		MyCalendar calendar = new GregorianCalendar(2013,1,28,13,24,56);
+		Calendar calendar = new Calendar(2013,1,28,13,24,56);
 		
 		int year       = calendar.get(Calendar.YEAR);
 		int month      = calendar.get(Calendar.MONTH); 
